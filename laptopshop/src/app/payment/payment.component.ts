@@ -83,7 +83,7 @@ export class PaymentComponent {
        
                 
         rzp1.on('payment.failed', function (response:any){    
-          // Todo - store this information in the server
+          // Todo - store this insformation in the server
           console.log(response);
           console.log(response.error.code);    
           console.log(response.error.description);    
