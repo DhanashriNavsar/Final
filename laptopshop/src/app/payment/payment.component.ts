@@ -68,9 +68,9 @@ export class PaymentComponent {
         this.options.key = data.secretId;
         this.options.order_id = data.razorpayOrderId;
         this.options.amount = data.applicationFee; //paise
-        this.options.prefill.name = "Dhanashri Navsar";                //"Dipali Bharate";
-        this.options.prefill.email ="dbnavsar2018@gmail.com"; //"dipabharate2000@gmail.com";
-        this.options.prefill.contact ="9356853688";//"9970286459";
+        this.options.prefill.name = "Dhanashri Navsar";                
+        this.options.prefill.email ="dbnavsar2018@gmail.com"; 
+        this.options.prefill.contact ="9356853688";
         
         if(data.pgName ==='razor2') {
           this.options.image="";
