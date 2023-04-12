@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 	@AllArgsConstructor
 	@NoArgsConstructor
 	@Entity
-	@Table(name="LaptopshopRegister")
+	@Table(name="HomeAppliancesRegister")
 	public class User {
 		@Id
 		private int userId;
